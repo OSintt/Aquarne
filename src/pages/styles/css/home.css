@@ -1,0 +1,41 @@
+body {
+  background: top no-repeat url("https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/1610140073340-HUI5T13FIOJFIRAWAC5P/minecraft.jpg?format=1000w");
+  backdrop-filter: blur(9px);
+}
+
+.home-container {
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-container h1 {
+  font-weight: 600;
+  font-size: 68px;
+}
+.home-container .home-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.home-container .info-container {
+  align-self: flex-end;
+  margin-right: 1em;
+}
+.home-container .servers-container {
+  justify-content: space-between;
+}
+
+.server-card-container {
+  padding: 1em;
+  box-shadow: inset 0 0 0 1000px rgba(150, 150, 150, 0.7);
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 1em;
+  width: 200px;
+  height: 400px;
+}
+.server-card-container h1, .server-card-container .server-ip {
+  margin-top: auto;
+}
+
+/*# sourceMappingURL=home.css.map */
